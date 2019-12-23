@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home" style="text-align: center">
+
+  {{ content }}
+
+  <h1 class="page-heading">
+    <br>
+    <br>
+    <p>Hi!</p>
+    <br>
+    <p>
+      Welcome to this little space on the Internet that I have naively reserved for<br>
+      sharing my learnings and feelings<br>as an Electronics and Instrumentation undergraduate.<br>
+      <br>
+      <br>
+    </p>
+  </h1>
+
+  <ul class="page-list">
+    {% for page in site.pages %}
+      <h2>
+        <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+      </h2>
+    {% endfor %}
+  </ul>
+
+</div>

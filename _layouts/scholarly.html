@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <h1 class="page-heading">Scholarly</h1>
+  <div style="text-align:center; font-size: 18px">
+    <p>
+      A collection of some interesting texts I have read.
+    </p>
+
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.categories.scholar %}
+    <h2>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+    {% endfor %}
+  </ul>
+
+<br>
+<br>
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+
+</div>
