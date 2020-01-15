@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Brief History of Linux
-category: linuxdoc
+category: techblog
 date: 2019-06-16
 ---
 
