@@ -25,7 +25,7 @@ Pizza has an exceptional space in his stomach just like Anne Hathaway has an exc
 <br>
 
 |:---:|:---:|:---:|:---:|:---:|
-|View (hopefully updated) [Resume(PDF)](assets/resumeARB.pdf)|Follow his projects on [GitHub](https://github.com/akhilrb)|View his full profile on [LinkedIn](https://www.linkedin.com/in/akhil-raj-baranwal)|Wave Hi on [Facebook](https://facebook.com/akhil.r.baranwal)|Bleed your ears to his instrumentals on [SoundCloud](https://soundcloud.com/akhil-baranwal)
+|View (hopefully updated) [Resume(PDF)](assets/resumeARB.pdf)|Follow his projects on [GitHub](https://github.com/arbaranwal)|View his full profile on [LinkedIn](https://www.linkedin.com/in/akhil-raj-baranwal)|Wave Hi on [Facebook](https://facebook.com/akhil.r.baranwal)|Bleed your ears to his instrumentals on [SoundCloud](https://soundcloud.com/akhil-baranwal)
 
 <br>
 

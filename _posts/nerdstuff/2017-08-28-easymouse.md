@@ -8,7 +8,7 @@ date: 2017-08-28
 <br>
 <br>
 Recently, after playing CS 1.6 (judge me all you can) for around 3 hours, I felt some discomfort in my wrist, and **WebMD** proudly suggested [Carpal Tunnel Syndrome](https://www.webmd.com/pain-management/carpal-tunnel/tc/carpal-tunnel-syndrome-topic-overview).<br>
-This is a common problem with people who are involved in desk-work, working with a traditionally designed mouse (correctly, a pointing device). 
+This is a common problem with people who are involved in desk-work, working with a traditionally designed mouse (correctly, a pointing device).
 
 Here's what happens:
 
@@ -48,4 +48,4 @@ I've focused on writing the 'driver' till now.<br>
 3D printing the wearable can start once the wireless feature is implemented.<br>
 Feel free to contact me to suggest ideas or contribute to this project.<br>
 
-All files related to the project can be found [here](https://www.github.com/akhilrb/easymouse "Trust the readme on the target page more than the description provided here").
+All files related to the project can be found [here](https://www.github.com/arbaranwal/easymouse "Trust the readme on the target page more than the description provided here").

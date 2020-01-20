@@ -72,7 +72,7 @@ People often prioritise random activities over sleep.<br>
 Conclusion: Everybody sleeps less, just at different times in our limited 24 hour clock cycles.<br>
 Had everyone been sleeping at similar times, nobody would be able to disturb someone else's sleep. Viola! You have a perfectly healthy population.
 
-The fact that I am a lazy guy and that I love my sleep makes me slightly immune to schlep blinders, and I end up doing weird stuff that's probably an overkill, like [this script](https://github.com/akhilrb/liveStream).<br>
+The fact that I am a lazy guy and that I love my sleep makes me slightly immune to schlep blinders, and I end up doing weird stuff that's probably an overkill, like [this script](https://github.com/arbaranwal/liveStream).<br>
 Here, it means that I do not like people knocking on my door to realise I was sleeping, because:
 * A dumb poker face opens the door for them.
 * It disturbs my sleep!
