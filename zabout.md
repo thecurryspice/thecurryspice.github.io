@@ -5,20 +5,16 @@ permalink: /about
 ---
 
 
-Akhil is a senior in Electronics and Instrumentation Engineering at [BITS Pilani Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/) and has a passion for electronics and programming. The stuff he builds doesn't usually compensate for the stuff he tears down.<br>
-He always advertises himself as a maker, and he has come a long way from repairing earphones to building [independent projects](projects).<br>
+Akhil is a senior in Electronics and Instrumentation Engineering at [BITS Pilani Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/) and holds strong inclinations towards electronics and programming. The stuff he builds doesn't usually compensate for the stuff he tears down.<br>
+He always advertises himself as a maker, and he has come a long way from repairing earphones to building independent projects.<br>
 In the summer of 2017, he tried writing some of Arduino's timing libraries from scratch, just because he is a DIY freak, but ended up using the default libraries anyway. Remnants of his endeavours in Arduino have been compiled under [Exploiting An Arduino](arduino-tutorials).<br>
-His current interests include **Computer Architecture** and **MEMS (Micro Electro Mechanical Systems)**.
+He has also worked as a guest researcher with the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about) while working on accelerator designs for reinforcement learning.
 
-A jack of some trades by decision and a sarcastic retard by choice, he likes writing short poems whenever he breaks out of reverie after looking out of a train's window.
-He likes telling stories and also likes to compose digital music on themed storylines.<br>
-He has directed two short films, along with composing background music for the same.<br>
-Although he feels that the first one involves too much cringe to be shared, the second can be viewed [here](https://youtu.be/PNcLJ-C4uQ0 "Imagine").
-
+A jack of some trades by decision and a sarcastic retard by choice, he likes writing short poems whenever he breaks out of reverie after looking out of a train's window.<br>
 Akhil loves all forms of chai, with a partial preference to [Masala chai](https://en.wikipedia.org/wiki/Masala_chai).<br>
 He oftens becomes the odd one out in a group because of prioritising Chai over Coffee.<br>
 He keeps shut about the topic mostly, but when feeling extremely left out, he tries to impart lessons on how wonderful Chai is.<br>
-Pizza has an exceptional space in his stomach just like Anne Hathaway has an exceptional space in his heart, and Anoushka Shankar and Radhika Apte and Rachel McAdams and Natalie Portman and Amal Clooney.
+Pizza has an exceptional space in his stomach just like Anne Hathaway has an exceptional space in his heart, and Anoushka Shankar and Radhika Apte and Emma Watson and Amal Clooney.
 
 ---
 <br>
