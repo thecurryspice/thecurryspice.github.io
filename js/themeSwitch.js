@@ -14,8 +14,8 @@ function theme() {
     var sheet = "/assets/main.css"
 
     if (sessionStorage.getItem('themeMode') == null || undefined) {
-        sessionStorage.setItem('themeMode', 'dark');
-        sheet  = '/css/dark.css';
+        sheet  = '/css/light.css';
+        sessionStorage.setItem('themeMode', 'light');
         // console.log(sessionStorage.getItem('themeMode'));
     }
     else if ( sessionStorage.getItem('themeMode') === 'dark') {
