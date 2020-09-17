@@ -87,7 +87,7 @@ _______
 ## Impressions
 
 Although I appreciate the ordered life of employees that work here, I detest it too.<br>
-I can never expect myself to look at 3*200 inch screens to monitor multiple graphs showing critical behaviour. I understand that sitting in a cosy chair comfortably while looking at screens and sipping tea might define perfect jobs for some people, but not me.<br>
+I can never expect myself to look at 3 huge screens to monitor for faults. A corporation that doesn't delve into new flows, new methodologies, new technology and research will not be able to deliver redeeming tasks. I understand that sitting in a cosy chair comfortably while looking at screens and sipping tea might define perfect jobs for some people, but not me.<br>
 I don't think I can work in a corporation which has no research interests.<br>
 I'd honestly prefer repairing vintage electronic devices at a local store over such kind of work.<br>
 
