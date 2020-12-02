@@ -14,9 +14,6 @@ For starters, here is what I get to look at each morning.
 
 ![dresdenWindowView](/assets/blog/windowViewDresden.jpg "Simply elegant")
 
-As I slowly settle into the lifestyle here, I agree with some stereotypes, namely the ones involving how Germans marry the clock and love paperwork. But, other stereotypes, like Germans are not friendly or don't laugh much, seem like utter nonsense.  
-I think it's okay to stereotype a specific community, which means stereotyping their summed work-ethic, summed abilities, and summed professionalism. But well, people are people, and you'll always find enough data points in a good sample set to reduce the stereotype to a boring _average_.
-
 ---
 <br>
 <br>
