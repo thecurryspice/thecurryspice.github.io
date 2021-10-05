@@ -1,15 +1,15 @@
 ---
 layout: post
-title: MQTT Performance Stats on Raspberry Pi
+title: VLC Sync on MQTT
 category: techblog
 date: 2018-06-06
 ---
 
 
-<br>
-<br>
+[Please view the VMS (VLC MQTT Sync) project here.](https://github.com/arbaranwal/vms)<br>
+VMS is a Python utility to keep multiple devices playing the same video file in sync, using MQTT. VMS has a very small network footprint, and works reliably well in situations of limited network bandwidth.
 
-<sub>*This post contains no code, no explanations, but significant data, generated out of nothing but sheer curiosity.*</sub>
+The rest of this post contains outputs of some performance benchmarks that I required for the VMS project, for which I was using a RaspberryPi SBC as a MQTT server. The following text contains no code, no explanations, and some data, generated out of nothing but sheer curiosity.
 
 ---
 
