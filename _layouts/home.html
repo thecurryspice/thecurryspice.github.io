@@ -2,30 +2,34 @@
 layout: default
 ---
 
-<div class="home" style="text-align: center">
+<div class="home">
 
   {{ content }}
 
-  <h1 class="page-heading">
-    <br>
-    <br>
-    <p>Hi!</p>
-    <br>
-    <p>
-      Welcome to my website.<br>
-      Please use the following links to navigate around.<br>
-      My social profiles are linked in the bottom left corner.
-      <br>
-      <br>
-    </p>
-  </h1>
+  <!-- <h1 class="page-heading"> -->
+    <div>
+        <img class ="homedp" src="assets/arbaranwalDP.jpeg" style="float:left" width=90% height=90%>
+    </div>
+    <div style="text-align: center; padding-left: 100px">
+        <br>
+        <h1>Hi!</h1>
+        <br>
+            <p>
+            Welcome to my website.<br>
+            Please use the following links to navigate around.<br>
+            My social profiles are linked in the bottom left corner.
+            <br>
+            <br>
 
-  <ul class="page-list">
-    {% for page in site.pages %}
-      <h2>
-        <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-      </h2>
-    {% endfor %}
-  </ul>
+            </p>
+      <!-- </h1> -->
 
+      <ul class="page-list">
+        {% for page in site.pages %}
+          <h2>
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          </h2>
+        {% endfor %}
+      </ul>
+    </div>
 </div>
