@@ -3,11 +3,11 @@ layout: post
 title: "Experiences With Jekyll"
 date: 2017-06-19
 author: Akhil Raj Baranwal
-comments: true
 category: blogpost
 ---
 
-<br>
+In short, I'm struggling with Jekyll and need a black theme.
+
 ## A Little Introduction
 
 [Jekyll](https://jekyllrb.com) is a static site generator based on Ruby.
@@ -48,7 +48,7 @@ It seems that whenever a custom CSS is applied, Jekyll finds some inconsistency 
 Mentioning markdown, I feel it's short, great and everyone must be familiar with it.
 
 Troubleshooting has honestly been *Troubleaiming* for the past day, and I desperately hope to find what the problem is.
-If you are reading this post with the site having a white background, know it for sure that I've still not found a fix for this.
+If you are reading this post without the site having an option to switch the theme, know it for sure that I've still not found a fix for this.
 Because I may not be Batman, but I definitely like Black.
 
 ___

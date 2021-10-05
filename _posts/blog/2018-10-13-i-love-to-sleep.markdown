@@ -5,10 +5,6 @@ category: blogpost
 date: 2018-10-13
 ---
 
-<br>
-<br>
-
-
 Of all the activities I do on a daily basis, sleeping is often the best feeling to embrace me on most days.<br>
 There's a different energy about sprawling slowly on a bed, releasing all that tension from a rough day, and just melting into the bedsheets.<br>
 My love for sleeping transcends all time and space.

@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: post
 title: "How To: Ace Humanitarian Social Studies Courses"
 category: blogpost
 date: 2017-09-09
----
+--- -->
 
 For a savagicious/sapiential/omniscient person, acing Humanities courses might come off as leisurely.<br>
 For me, however, it seems more demanding than a clingy girlfriend.<br>

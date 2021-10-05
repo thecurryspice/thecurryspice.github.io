@@ -5,9 +5,6 @@ category: blogpost
 date: 2018-06-26
 ---
 
-<br>
-<br>
-
 My stay at [Adani Power Maharashtra Limited, Tirora](http://www.adanipower.com/businesses/operational-power-plants/tiroda), has been amazing.<br>
 As mentioned in one of my previous posts, the scale is humbling.<br>
 

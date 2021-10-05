@@ -5,10 +5,9 @@ category: blogpost
 date: 2018-04-18
 ---
 
-<br>
-
 There's this sense of urgency that dawns over me whenever I think about Death.<br>
-An urgency that warms my chest everytime, a micro heart-attack, almost similar to when I don't feel my phone in my pocket.<br>
+An urgency that warms my chest everytime, a micro heart-attack, almost similar to when I don't feel my phone in my pocket.
+
 Constant reminders of Death exhort me, like a crowd cheering an Olympic runner who tripped miserably, to be productive by motivating me to extract as much as of my time as I possibly can.<br>
 As dark as it may sound, Death, to me, is the strongest incentive to do something.<br>
 The strongest incentive to do something is the regret of not doing it!<br>

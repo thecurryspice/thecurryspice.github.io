@@ -202,6 +202,17 @@
   @include relative-font-size(1.5);
 }
 
+.home {
+    display: flex;
+    // background-color: rgb(206,33,39);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.homedp {
+    border-radius: 20%
+}
 
 
 /**

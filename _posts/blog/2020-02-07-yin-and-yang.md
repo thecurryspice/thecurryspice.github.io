@@ -6,9 +6,6 @@ author: Akhil Raj Baranwal
 date: 2020-02-07
 ---
 
----
-<br>
-<br>
 It has been almost a month since I came to Germany as a guest researcher at the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about) for my undergraduate thesis. Dresden is a beautiful, beautiful city.  
 For starters, here is what I get to look at each morning.
 

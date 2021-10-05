@@ -5,9 +5,9 @@ category: blogpost
 date: 2017-11-05
 ---
 
-<br>
 I have a propensity for appreciating beautiful pieces of porcelain.<br>
-Sometimes, I take a few moments off of my routine and relax, just to criticize porcelain.<br>
+Sometimes, I take a few moments off of my routine and relax, just to criticize porcelain.
+
 I have a personal inclination towards the meaningfully designed ones; the plain, the simple, with an occasional swirl on the exterior, or a small but complex pattern on one side; the monochrome, with a colour gradient so random that it feels like it was intentionally planned.<br>
 But I find everything interesting, be it the average pieces that people usually ignore, or the pieces that are meaningfully designed, or the beautiful show-pieces that serve no practical purpose, everything goes well with a nice bouquet, which, depending on the permutations of colour and number of petals, can both mask the porcelain's plain-ness and (or) accentuate its intricacies.
 

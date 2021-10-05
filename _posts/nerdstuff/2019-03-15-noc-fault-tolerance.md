@@ -6,7 +6,9 @@ date: 2020-06-15
 ---
 
 
-I spent a major part of my junior year working under [Dr. Soumya J](https://universe.bits-pilani.ac.in/Hyderabad/soumyaj/Profile)'s guidance. Her research on Network On Chips seemed fascinating to me because the potential of NoCs seemed to be a leap in the future of system organisation. However, being a beginner in Computer Architecture, all I could deliver in a 6 month long project was a not-so-detailed literature review of existing routing algorithms, and an elementary attempt to make a routing algorithm [NoC simulator in Python](https://github.com/arbaranwal/noc).  
+I spent a major part of my junior year working under [Dr. Soumya J](https://universe.bits-pilani.ac.in/Hyderabad/soumyaj/Profile)'s guidance. Her research on Network On Chips seemed fascinating to me because the potential of NoCs seemed to be a leap in the future of system organisation.
+
+However, being a beginner in Computer Architecture, all I could deliver in a 6 month long project was a not-so-detailed literature review of existing routing algorithms, and an elementary attempt to make a routing algorithm [NoC simulator in Python](https://github.com/arbaranwal/noc).  
 Eventually, I tried my shot in other fields - MEMS and Robotics. However, I was mesmerized by the art that CompArch is, and returned to the field, spending time as a guest researcher with the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about). My learnings during this time sparked my interest towards NoCs yet again.
 
 ---

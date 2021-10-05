@@ -1,5 +1,5 @@
 ---
 layout: nerdstuff
-title: Nerd Stuff
-permalink: /nerdstuff
+title: Research/Projects
+permalink: /rnd
 ---

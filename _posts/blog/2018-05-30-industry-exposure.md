@@ -5,10 +5,7 @@ category: blogpost
 date: 2018-05-30
 ---
 
-<br>
-<br>
-
-I've been at [Adani Power Maharashtra Limited, Tirora](http://www.adanipower.com/businesses/operational-power-plants/tiroda) as a project intern for seven days now, and there's been a significant addition to my experiences.<br>
+I've been at [Adani Power Maharashtra Limited, Tirora](http://www.adanipower.com/businesses/operational-power-plants/tiroda) as a project intern for seven days now, and there's been significant additions to my experiences.<br>
 
 Allow me to provide some facts and statistics:
 * APML, Tirora is a 3.3GW capacity power plant which uses about 10,000 tonnes of coal everyday when operated at maximum capacity.
