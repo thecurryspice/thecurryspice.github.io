@@ -12,13 +12,17 @@ layout: default
     </div>
     <div style="text-align: center; padding-left: 100px">
         <br>
-        <h1>Hi!</h1>
         <br>
         <div style="font-size:18px">
             <p>
-            Welcome to my website.<br>
-            Please use the following links to navigate around.<br>
-            My social profiles are linked in the bottom left corner.
+                <!-- View [Resume(PDF)](assets/resumeARB.pdf) -->
+                <div style="font-size:16px; text-align: left;">
+                    {% include icon-linkedin.html username=site.linkedin_username %}|
+                    {% include icon-gscholar.html username=site.gscholar_username %}|
+                    {% include icon-twitter.html username=site.twitter_username %}|
+                    {% include icon-github.html username=site.github_username %}|
+                     {% include icon-telegram.html username=site.telegram_username %}
+                </div>
             <br>
             <br>
 
