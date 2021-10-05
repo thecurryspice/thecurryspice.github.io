@@ -1,10 +1,10 @@
-strong { color: #000; }
+strong { color: #C30; }
 
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #1c2826; background-color: #e2e0cb; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: 1px; letter-spacing: 0.3px; }
+body { font: 400 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #1c2826; background-color: #E0E0E0; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: 1px; letter-spacing: 0.3px; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 16px; }
@@ -26,18 +26,18 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; color: #252525; }
 
 /** Links */
-a { color: #226d17; text-decoration: none; }
-a:visited { color: #0e2e0a; }
-a:hover { color: #36ac24; text-decoration: underline; }
+a { color: #1E88E5; text-decoration: none; }
+a:visited { color: #4A148C; text-decoration: none; }
+a:hover { color: #29B6F6; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
-blockquote { color: #ecf0f1; border-left: 4px solid #9c9c9c; padding-left: 16px; font-size: 18px; letter-spacing: -0.5px; font-style: italic; }
+blockquote { color: #0c0f1f; border-left: 4px solid #2c2c2c; padding-left: 16px; font-size: 16px; letter-spacing: -0.5px; font-style: italic; }
 blockquote > :last-child { margin-bottom: 0; }
 
 /** Code formatting */
-pre, code { font-size: 15px; color: #000; border: 2px solid #d9d6bb; border-radius: 15px; background-color: #efefef; }
+pre, code { font-size: 12px; color: #000; border: 2px solid #abb7b7; border-radius: 15px; background-color: #efefef; }
 
 code { padding: 1px 5px; }
 

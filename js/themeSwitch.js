@@ -6,9 +6,6 @@ style.type  = 'text/css';
 style.href  = '/css/' + themeMode + '.css';
 document.getElementsByTagName( 'head' )[0].appendChild(style);
 
-
-// document.body.style.color = sessionStorage.getItem('cc');
-
 function theme() {
     var style   = document.createElement( 'link' );
     var sheet = "/assets/main.css"
@@ -16,19 +13,18 @@ function theme() {
     if (sessionStorage.getItem('themeMode') == null || undefined) {
         sheet  = '/css/light.css';
         sessionStorage.setItem('themeMode', 'light');
-        // console.log(sessionStorage.getItem('themeMode'));
+        //console.log(sessionStorage.getItem('themeMode'));
     }
     else if ( sessionStorage.getItem('themeMode') === 'dark') {
         sheet  = '/css/light.css';
         sessionStorage.setItem('themeMode', 'light');
-        // console.log(sessionStorage.getItem('themeMode'));
+        //console.log(sessionStorage.getItem('themeMode'));
     }
 
     else if( sessionStorage.getItem('themeMode') === 'light') {
         sheet  = '/css/dark.css';
         sessionStorage.setItem('themeMode', 'dark');
-        // console.log(sessionStorage.getItem('themeMode'));
-        // sessionStorage.setItem('cc', '#aaa');
+        //console.log(sessionStorage.getItem('themeMode'));
     }
     style.rel   = 'stylesheet';
     style.type  = 'text/css';

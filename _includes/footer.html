@@ -5,50 +5,42 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col footer-col-1">
+  
+        {% if site.linkedin_username %}
+        <span>
+            {% include icon-linkedin.html username=site.linkedin_username %}|
+        </span>
+        {% endif %}
 
-          {% if site.github_username %}
-          <span>
-            {% include icon-github.html username=site.github_username %}|
-          </span>
-          {% endif %}
+        {% if site.gscholar_username %}
+        <span>
+            {% include icon-gscholar.html username=site.gscholar_username %}|
+        </span>
+        {% endif %}
 
-          {% if site.linkedin_username %}
-            <span>
-              {% include icon-linkedin.html username=site.linkedin_username %}|
-            </span>
-          {% endif %}
-
-          {% if site.quora_username %}
-            <span>
-              {% include icon-quora.html username=site.quora_username %}|
-            </span>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <span>
+        {% if site.twitter_username %}
+        <span>
             {% include icon-twitter.html username=site.twitter_username %}|
-          </span>
-          {% endif %}
+        </span>
+        {% endif %}
 
-          {% if site.google_plus_username %}
-            <span>
-              <a href="https://plus.google.com/{{ site.google_plus_username }}">
-                <i class="fa fa-google-plus"></i> Google+
-              </a>
-            </span>
-          {% endif %}
+        {% if site.github_username %}
+        <span>
+            {% include icon-github.html username=site.github_username %}|
+        </span>
+        {% endif %}
 
-          {% if site.telegram_username %}
-            <span>
-              {% include icon-telegram.html username=site.telegram_username %}|
-            </span>
-          {% endif %}
+        {% if site.telegram_username %}
+        <span>
+            {% include icon-telegram.html username=site.telegram_username %}
+        </span>
+        {% endif %}
 
-          {% if site.facebook_username %}
-            <span>
-              {% include icon-facebook.html username=site.facebook_username %}
-            </span>
-          {% endif %}
+        {% if site.facebook_username %}
+        <span>
+            {% include icon-facebook.html username=site.facebook_username %}
+        </span>
+        {% endif %}
 
       </div>
 <!--
