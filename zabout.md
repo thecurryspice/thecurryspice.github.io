@@ -8,6 +8,8 @@ Akhil currently works as an ASIC Design Engineer at [Micron Technology](https://
 He holds a B.E. in Electronics and Instrumentation Engineering from [BITS Pilani Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/) and has strong inclinations towards Computer Architecture and Systems for ML.<br>
 He has also worked as a guest researcher with the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about) while working on accelerator designs for reinforcement learning.<br>
 
+A long-term goal for Akhil is to avert the climate crisis. His current thoughts about his contributions can be found [in this blog post](https://arbaranwal.github.io/blogpost/2020/11/02/for-the-earth-that-is-dying.html).
+
 In his spare time, Akhil can be found tinkering with electronics. The stuff he builds doesn't usually compensate for the stuff he tears down.<br>
 He can occasionally be found writing short poems. It's possible that he's currently sipping Chai.
 
