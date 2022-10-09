@@ -38,7 +38,7 @@ I've consistently thought about how to find my own personal Zima-Blue moments - 
 
 ## Getting Zima-Blued
 
-Zima-Blue moments much come naturally. I have two reasons why getting Zima-Blued cannot be contrived or forced:<br>
+Zima-Blue moments must come naturally. I have two reasons why getting Zima-Blued cannot be contrived or forced:<br>
 1. I know most of the **conventional(C)/non-conventional(NC)** means to most ends. If I knew that taking a certain means will land me up in a certain end, I would have chosen the best option already. There can only be two sets in which my Zima-Blue moment lies - either **(a)** I'm taking the NC path where the C path had to be taken, or **(b)** vice versa. Our schooling/upbringing programs us to behave in certain C ways. It is only through our experiences that we scrutinise all of these C behaviours and choose whether to keep acting on them or choose an alternative NC path towards a selected end. So we are already taking care of *(a)*. This means that the only paths we failed to take *(b)*, are the ones where we were initially programmed to do C, and we chose to perform C even after scrutinising it personally. In other words, we didn't even consider that we can ever take these NC paths, because we calculated that these simply don't exist.
 2. If I can contrive getting Zima-Blued, I will be able to contend that all my non-conventional actions are in pursuit of finding my Zima-Blue moment. That's a recipe for unbridled chaos. I can kick a dog and say that I wanted to do this because maybe I'll find meaning in that. I'm not ready for either the philosphical pain or the moral weight that I will endure while trying to live this way.
 
