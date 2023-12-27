@@ -16,17 +16,17 @@
 title: Akhil Raj Baranwal
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  This website serves as my potpurri of experiences and learnings of an Electronics undergraduate.
+  The Curryspice's Rasoi
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: akhilrbaranwal
-github_username:  arbaranwal
+github_username:  thecurryspice
 gscholar_username: k35PluIAAAAJ
 linkedin_username: akhil-raj-baranwal
-quora_userame: Akhil-Raj-Baranwal
-telegram_username: arbaranwal
-disqus:
-  shortname: "akhilrb"
+instagram_username: the.curryspice
+# telegram_username: arbaranwal
+# disqus:
+#   shortname: "akhilrb"
 
 #Google-Analytics
 google_analytics: UA-102675565-1
@@ -38,6 +38,7 @@ header_pages:
   - zabout.md
 
 # Build settings
+include_dir: "."
 markdown: kramdown
 theme: minima
 gems:
