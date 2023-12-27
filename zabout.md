@@ -25,7 +25,7 @@ Although, if you do find him blabbering about web-development, remind him that t
 View [Resume(PDF)](assets/resumeARB.pdf)
 
 <div style="text-align: left;">
-    Please contact me through any of these links:<b>  </b>
+    I can be contacted through any of these links:<b>  </b>
     {% include custom/socials.html %}
 </div>
 I respond fastest on LinkedIn.
