@@ -1,0 +1,17 @@
+{%- if site.github_username -%}<span><a href="https://github.com/{{ site.github_username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>|</span> {%- endif -%}
+{%- if site.linkedin_username -%}<span><a href="https://linkedin.com/in{{ site.linkedin_username }}"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>|</span> {%- endif -%}
+<!-- {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">{{ mst.username|escape }}</span></a></li>{%- endif -%}{%- endfor -%} -->
+{%- if site.twitter_username -%}<span><a href="https://twitter.com/{{ include.twitter_username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>|</span> {%- endif -%}
+{% if site.gscholar_username %}<span><a href="https://scholar.google.com/citations?user={{ site.gscholar_username }}"><span class="icon icon--gscholar">{% include icon-gscholar.svg %}</span></a>|</span> {%- endif -%}
+{% if site.telegram_username %}<span><a href="https://web.telegram.org/{{ site.telegram_username }}"><span class="icon icon--telegram">{% include icon-telegram.svg %}</span></a>|</span> {%- endif -%}
+{%- if site.instagram_username -%}<span><a href="https://instagram.com/{{ site.instagram_username }}"><span class="icon icon--instagram">{% include icon-instagram.svg %}</span></a>|</span>{%- endif -%}
+{%- if site.youtube_username -%}{%- endif -%}
+<!-- {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%} -->
+
+<!---all icons downloaded from svgrepo.com, dark variants-->
+
+<!-- {% if site.example_username %}
+<span>
+    {% include icon-example.html username=site.example_username %}|
+</span>
+{% endif %}-->

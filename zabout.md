@@ -4,30 +4,31 @@ title: About
 permalink: /about
 ---
 
-Akhil currently works as an ASIC Design Engineer at [Micron Technology](https://in.micron.com/).  
-He holds a B.E. in Electronics and Instrumentation Engineering from [BITS Pilani Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/) and has strong inclinations towards Computer Architecture and Systems for ML.<br>
-He has also worked as a guest researcher with the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about) while working on accelerator designs for reinforcement learning.<br>
+Namaste!<br>
+I am currently a MASc student studying [Computer Engineering at Simon Fraser University (SFU)](https://www.sfu.ca/engineering/research/computer-engineering.html), advised by [Dr. Zhenman Fang](https://www.sfu.ca/~zhenman/index.html).<br>
+I am also a research assistant at [HiAccel lab](https://www.sfu.ca/~zhenman/group). My current research interests include characterization of __accelerator-rich architectures, systems for ML, and neuromorphic architectures__. I think that closing the gap between software programmers and hardware design is as trememdously significant as challenging.<br>
+I am also interested in the general study of __cognition, sentience__ and behaviour of the __mind__, and always open to discuss bio-inspired hardware architecture design.
 
-A long-term goal for Akhil is to avert the climate crisis. His current thoughts about his contributions can be found [in this blog post](https://arbaranwal.github.io/blogpost/2020/11/02/for-the-earth-that-is-dying.html).
+Before joining HiAccel, I worked at [Imagination Technologies](https://www.imaginationtech.com/) as a CPU Design Engineer, and at [Micron Technology](https://in.micron.com/) as a SoC Verification Engineer.<br>
+Before CoViD reconfigured my priorities, I worked as a guest researcher with the [Chair for Processor Design, CFAED](https://cfaed.tu-dresden.de/pd-about), while working on accelerator designs for reinforcement learning.<br>
+I received my B.E. in Electrical Engineering from [BITS Pilani, Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/).
 
-In his spare time, Akhil can be found tinkering with electronics. The stuff he builds doesn't usually compensate for the stuff he tears down.<br>
-He can occasionally be found writing short poems. It's possible that he's currently sipping Chai.
+In my natural habitat, I can occasionally be observed writing in silence.<br>
+It's possible I'm currenty sipping Chai <sub>(slurp)</sub>
 
 <!-- Akhil is not a web-developer, and is too dumb to talk anything about web-development.<br>
 Although, if you do find him blabbering about web-development, remind him that this blog has been made using <a href="https://jekyllrb.com">Jekyll</a>. -->
 
 ---
 <br>
-<br>
 
 View [Resume(PDF)](assets/resumeARB.pdf)
-<div style="font-size:16px; text-align: left;">
-    {% include icon-linkedin.html username=site.linkedin_username %}|
-    {% include icon-gscholar.html username=site.gscholar_username %}|
-    {% include icon-twitter.html username=site.twitter_username %}|
-    {% include icon-github.html username=site.github_username %}|
-     {% include icon-telegram.html username=site.telegram_username %}
+
+<div style="text-align: left;">
+    Please contact me through any of these links:<b>  </b>
+    {% include custom/socials.html %}
 </div>
+I respond fastest on LinkedIn.
 
 ---
 
