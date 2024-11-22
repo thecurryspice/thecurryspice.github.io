@@ -99,7 +99,7 @@ hehe.
 [HiAccel Lab](https://www.sfu.ca/~zhenman/group.html) works on a breadth of topics related to computer engineering - HPC accelerators, novel architectures, and compiler support for the same. I am glad to be working with brilliant, clever colleagues who share my interests and frustrations.
 
 
-Four years ago, I had stopped updating this space.  
+Three years ago, I had stopped updating this space.  
 So what happened now? Did a horse kick my head?  
 Why am I starting to write this blog again? Nobody reads it anyway.  
 I don't know. But maybe humans scream the loudest when nobody is listening.
