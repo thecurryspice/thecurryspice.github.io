@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Micron Technology, Imagination Technologies, and HiAccel Lab
-category: techblog
+title: Restarting in 2024
+category: blogpost
 date: 2024-10-12
 ---
 
@@ -10,7 +10,7 @@ The world ended in March 2020.
 We are all ghosts today.
 Or, well, were at least supposed to be, instead of the loves ones that became ghosts.
 
-4 years later, so much has changed.  
+Four years later, so much has changed.  
 Take `Jekyll`, for example. I make this post after 3 hours of peeling my eyes and pulling my hair while scrolling through StackOverflow.
 It took me about forty trials to set up `rbenv` and `Jekyll` correctly, just to add this post.  
 Frankly, I don't even know if the current setup is how it should be installed. All I know is that it works.  
@@ -41,9 +41,10 @@ The applause on the call doesn't matter. Corporate beer doesn't matter. You know
 I will always remember my time working with the SoCC-DV team at Micron, Hyderabad for this very reason.
 
 3. Working with post-silicon validation was humbling, to say the least. The bursts that would take 30 hours to simulate on compute-farms would take 20 ms to finish in the real world. We were seeing an error in one of our end-to-end tests, where the device was performing fine and transfer TiBs of data in low-performance modes, but would fail towards the trailing end of 2MiB when using its full bandwidth. This was weird. We rinsed through the firmware looking for modules going out of coordination after transferring ~2MiB of data. Next, we re-simulated everything in RTL and discussed whether some RTL behaviour was missed to be checked. Further, different sort of expensive gadgets and scopes were brought in to log these real world transfers at 40Gbps.
-And I kid you not, we checked everything from the firmware binary and handshake signals to the voltage measurements on the copper wires. Everything couldn't have been better. So, **what was wrong**. An engineer, who was responsible for the hardware setups, said he was going to redo the entire setup. His request was dismissed twice, under the claim that doing so would increase the work and introduce unknown errors instead of solving the obvious ones right now. The third time, he was allowed to do it. I was there. What we found while intending to clean the coaxial copper cables that connected the RX-TX lanes between the host and the device, left us looking at each other almost on the simultaneous verge of tears and laughter. For some reason, I remember that moment with the memory of the tone that used to play when Mario would lose a life.  
-The coaxial cable had a pin at the centre, and a tubular shielding on the side. A small section, hardly 20 degrees out of the 360, had chipped off and was hanging loose. The touch of a finger dropped this gold plated flake on the white table. It was this flake that was the reason that low-speed transfers worked flawlessly, but high-speed (high frequency) transfers saw all sorts of weird capacitance effects making the transfer fail roughly around the time when 2MiBs had been transferred. 1/12th of a tubular connector failing, overruled all the fault tolerance we had designed in all layers of the stack - from the link level to the application firmware.
-There's a saying in the semiconductor industry, I understood it in that moment.  
+And I kid you not, we checked everything from the firmware binary and handshake signals to the voltage measurements on the copper wires. Everything couldn't have been better. So, **what was wrong**? An engineer, who was responsible for the hardware setups, said he was going to redo the entire setup. His request was dismissed twice, under the claim that doing so would increase the work and introduce unknown errors instead of solving the obvious ones right now. The third time, he was allowed to do it. I was there. What we found while intending to clean the coaxial copper cables that connected the RX-TX lanes between the host and the device, left us looking at each other almost on the simultaneous verge of tears and laughter. For some reason, I remember that moment with the memory of the tone that used to play when Mario would lose a life.  
+The coaxial cable had a pin at the centre, and a tubular shielding on the side. A small section, hardly 20 degrees out of the 360, had chipped off and was hanging loose. The touch of a finger dropped this gold plated flake on the white table. It was this flake that was the reason that low-speed transfers worked flawlessly, but high-speed (high frequency) transfers saw all sorts of weird capacitance effects making the transfer fail roughly around the time when 2MiBs had been transferred. **1/12th of the tubular connector failing, overruled all the fault tolerance we had designed in all layers of the stack - from the link level to the application firmware**.
+
+There's an unpopular saying in the semiconductor industry, I understood it in that moment.  
 >"Semiconductor Engineering industry is not rocket science. It's more complex"
 
 
@@ -55,26 +56,57 @@ There's a saying in the semiconductor industry, I understood it in that moment.
 
 Saying goodbye to Micron was a tough decision. I was _restarting_ my career as a design engineer, essentially discarding the headstart and promotions I would have enjoyed had I stayed in verification. Imagination Technologies had already worked on an in-order CPU core, that they were trying to expand into a ASIL-D certified processor. The weight of responsibility is crazy. You certainly don't want the processor to delay triggering the Collision Avoidance System (CAS) because it was busy blinking the lights for the lane-assist.
 
-Linting and CDC is mostly what was on my plate, and I kept feeling that there was so much more I wanted to explore. Linting would never give me that experience, and a choked hierarchy would never offer me anything other than linting (atleast in the then-foreseeable future).
+Linting and CDC is mostly what was on my plate, and I kept feeling that there was so much more I wanted to explore. Linting would never give me that experience, so I decided to pack my bags for future studies in designing hardware accelerators.
 
 ---
 <br>
 <br>
 
-## HiAccel
+## Vancouver
 
+I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the beach. Vancouver offers both!
 
-HiAccel works on a breadth of topics related to computer engineering - HPC accelerators, novel architectures, and compiler support for the same. I am glad to be working with brilliant, clever colleagues who share my interests and frustrations.\
+![Somewhere around Iona Terminus](/assets/blog/2024-10-12/IonaTerminus.jpg)
+<sub>*^somewhere around Iona Terminus*</sub>
 
-I moved to Vancouver in Fall 2023, and what a pretty place this is!  
-The air is cleaning out my lungs as quickly as the expenses are clearing out my wallet. It is fun to return to student life. But let me not romanticise it for you. In another universe, I probably wouldn't have liked the change in lifestyle. This type of a lifestyle change is quite subjective and is only for the brave at heart.\
+![Somewhere around White Rock](/assets/blog/2024-10-12/WhiteRock.jpg)
+<sub>*^somewhere around White Rock*</sub>
+
+![Somewhere around Stanley Park](/assets/blog/2024-10-12/StanleyPark.jpg)
+<sub>*^somewhere around Stanley Park*</sub>
+
+---
+
+## SFU
+
+It is very important to choose where to stay while studying, and I feel lucky to have found accommodation at SFU's on-campus housing. It makes a huge difference. Here are some photos from SFU campus.
+
+![SFUcampusFall](/assets/blog/2024-10-12/campusFall.jpg)
+<sub>*It's called Fall because well ... leaves fall down*</sub>
+
+![SFUcampusMountain](/assets/blog/2024-10-12/campusMountain.jpg)
+<sub>*It's better to cry amidst mountains than on a busy street*</sub>
+
+The occasional deer and bear sightings are a bonus. The air is cleaning out my lungs as quickly as the expenses are clearing out my wallet. It is fun to return to student life. But let me not romanticise it for you. In another universe, I probably wouldn't have liked the change in lifestyle. This type of a lifestyle change is quite subjective and is only for the brave at heart.\
 I prefer to believe I am ദ്ദി ༎ຶ‿༎ຶ )\
 hehe.
 
-I often wonder where I will fit better - academia or corporate.\
-I don't know, honestly. All I know is that I am trying to follow Calvin's advice.
+---
+
+## HiAccel
+
+
+[HiAccel Lab](https://www.sfu.ca/~zhenman/group.html) works on a breadth of topics related to computer engineering - HPC accelerators, novel architectures, and compiler support for the same. I am glad to be working with brilliant, clever colleagues who share my interests and frustrations.
+
+
+Four years ago, I had stopped updating this space.  
+So what happened now? Did a horse kick my head?  
+Why am I starting to write this blog again? Nobody reads it anyway.  
+I don't know. But maybe humans scream the loudest when nobody is listening.
+
+I often wonder where I will fit better - academia or corporate.
+I don't know, honestly. All I know is that I am trying to find the right place, and just hang around.
 
 ![CalvinHobbesRightPlaceRightTime](/assets/calvinhobbesrightplacetime.png)
 
-What else can I expect myself to do, anyway?
 
