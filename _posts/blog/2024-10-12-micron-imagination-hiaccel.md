@@ -41,10 +41,10 @@ The applause on the call doesn't matter. Corporate beer doesn't matter. That bon
 I will always remember my time working with the SoCC-DV team at Micron, Hyderabad for this very reason.
 
 3. Working with post-silicon validation was humbling, to say the least. The bursts that would take 30 hours to simulate on compute-farms would take 20 ms to finish in the real world. During the later days of post-silicon validation with an actual host, we were seeing an error in one of our end-to-end tests, where the device would be able transfer TiBs of data in low-performance modes, but would fail towards the trailing end of 2MiB when using its full bandwidth. This was weird. We rinsed through the firmware looking for modules going out of coordination after transferring ~2MiB of data. Next, we re-simulated everything in RTL. Several discussions ensued. There was a brooding sense of fear that maybe verification of some RTL misbehaviour was omitted.<br>
-This is a great time to understand who likes to point fingers and who likes to own their code.<br>
+Whenever this happens, it is a great time to understand who likes to point fingers and who likes to own their code.<br>
 A week later, different sort of expensive gadgets and scopes were brought in to log these real world transfers at 40Gbps happening on a 1W power budget.
 I kid you not, we checked _everything_ from the firmware binary and handshake signals to the voltage measurements on the copper wires. Everything couldn't have been better. So, **what was wrong**? The team who was responsible for the hardware testbed boards offered to redo the entire setup. Their request was dismissed twice, under the claim that doing so would increase the work and introduce unknown errors instead of solving the obvious ones right now. The third time, they were allowed to do it. I was there with one of the other engineers when the frontend host interface was being disassembled. What we found while intending to clean the 8 coaxial copper cables that connected the RX-TX lanes between the host and the device, left us looking at each other almost on the simultaneous verge of tears and laughter. For some reason, I remember that moment with the memory of the tone that used to play when Mario would lose a life.<br>
-The coaxial cable had a pin at the centre, and a small tubular shielding on the side. An even smaller section, hardly 20 degrees out of the 360, had chipped off and was hanging loose. The touch of a finger dropped this gold plated flake on the white table. It was this flake that was the reason that low-speed transfers worked flawlessly, but high-speed (high frequency) transfers saw all sorts of weird capacitance effects making the transfer fail roughly around the time when 2MiBs had been transferred. **1/12th of a 3mm tubular connector failing, overruled all the fault tolerance we had designed in all five layers of the communication stack ദ്ദി ༎ຶ‿༎ຶ )** - from the link level to the application firmware.
+These elite gold-plated coaxial cables had a pin at the centre, and a small tubular shielding on the side. A small section, hardly 20 degrees out of 360, of one of these cables had chipped off and was hanging loose. The touch of a finger dropped this gold plated flake on the white desk. It was this flake that was the reason that low-speed transfers worked flawlessly, but high-speed (high frequency) transfers saw all sorts of weird capacitance effects making the transfer fail roughly around the time when 2MiBs had been transferred. **1/12th of a 3mm tubular connector failing, overruled all the fault tolerance we had designed in all five layers of the communication stack ദ്ദി ༎ຶ‿༎ຶ )** - from the link level to the application firmware.
 
 There's an unpopular saying in the semiconductor industry, I understood it in that moment.  
 >"Semiconductor Engineering industry is not rocket science. It's more complex"
@@ -83,13 +83,13 @@ I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the 
 
 ## SFU
 
-It is very important to choose where to stay while studying, and I feel lucky to have found accommodation at SFU's on-campus housing. It makes a huge difference. Here are some photos from SFU campus.
+It is very important to choose where to stay while studying, and I feel lucky to have found accommodation at SFU's on-campus housing. It makes a huge difference. Here are a couple of photos from SFU campus. Both are HDR shots from a Samsung phone. No post edits. Someone professional might capture much better photos.
 
 ![SFUcampusFall](/assets/blog/2024-10-12/campusFall.jpg)
-<sub>*It's called Fall because well ... leaves fall down*</sub>
+<sub>*Sharad. Autumn. Here, it's called Fall because well ... leaves ... fall down. Captured late-October.*</sub>
 
 ![SFUcampusMountain](/assets/blog/2024-10-12/campusMountain.jpg)
-<sub>*It's better to cry amidst mountains than on a busy street*</sub>
+<sub>*It's better to cry amidst these mountains than on a busy street. Yes, this view is from campus. Captured mid-March.*</sub>
 
 The occasional deer and bear sightings are a bonus. The air is cleaning out my lungs as quickly as the expenses are clearing out my wallet. It is fun to return to student life. But let me not romanticise it for you. In another universe, I probably wouldn't have liked this change in lifestyle. This type of a lifestyle change is quite subjective and is only for the brave at heart.<br>
 I am able to survive the delusion that I am ᕕ(⌐■_■)ᕗ ♪♬
@@ -103,12 +103,13 @@ hehe.
 ## HiAccel
 
 
-[HiAccel Lab](https://www.sfu.ca/~zhenman/group.html) works on a breadth of topics related to computer engineering - HPC accelerators, novel architectures, and compiler support for the same. I am glad to be continue my research on accelerator-rich architectures with brilliant, clever colleagues who share my interests and frustrations.
+[HiAccel Lab](https://www.sfu.ca/~zhenman/group.html) works on a breadth of topics related to computer engineering - HPC accelerators, novel architectures, and compiler support for the same. I am glad to continue my research on accelerator-rich architectures with brilliant, clever colleagues who share my interests and frustrations.
 
 Three years ago, I had stopped updating this space.<br>
 So what happened now? Did a horse kick my head?<br>
 Why am I starting to write this blog again? Nobody reads it anyway.<br>
 I don't know. But maybe humans scream the loudest when nobody is listening.
+I shall scream into this void here, laying down human thoughts for some web-scraping AI chatbot to adopt into its learning of what makes text human.
 
 I often wonder where I will fit better - academia or corporate.<br>
 I don't know, honestly. All I know is that I am trying to find the right place, and just hang around.
