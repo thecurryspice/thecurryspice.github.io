@@ -1,0 +1,221 @@
+---
+layout: post
+title: "EEPROM"
+date: 2017-08-05
+author: Akhil Raj Baranwal
+category: tutorial
+---
+<sub>*Last Updated : August 5, 2017*</sub>
+
+*This article is a continuation of the [previous tutorial](https://arbaranwal.github.io/tutorial/2017/07/22/temperature-sensor.html) on ATmega's internal temperature sensor. To keep the calibration permanent, I'm going to make a small header file and store the calibration data in the EEPROM. That will make the sensor's functionality easily accesible in any program uploaded on the chip.*
+
+___
+<br>
+<br>
+## EEPROM Basics
+
+EEPROMs stands for Electrically Erasable Programmable Read Only Memory.<br>
+These are cool little memory devices that can store values permanently and thus serve as a mini-hard drives.
+EEPROMs are bit erasable, which means that specific bits in the memory can be re-written (unlike erasing complete sectors in Flash devices), but only for a limited (approximately a lakh) number of times. Reading from a location is a much faster process than writing to it.<br>
+They can be used to store various settings or load stored configurations and eventually prove to be very useful.<br>
+The ATmega328(P) has a 1KB EEPROM, which is a fairly decent memory size for hobbyistic projects.<br>
+
+The Arduino core provides a stock library, *EEPROM.h*, which abstracts handling all the intricacies by employing easy-to-use functions.<br>
+The library has a predefined instance named EEPROM, and we can operate on it directly. But if the need of using another EEPROM arises, another instance can be created using `EEPROMClass EEPROM2;`
+
+___
+<br>
+<br>
+## Manipulating values in EEPROM
+
+#### Storing
+
+Three functions,
+```c
+void write( int idx, uint8_t val )
+    
+void update( int idx, uint8_t val )
+
+&put( int idx, const T &t )
+```
+can be used to store values.<br>
+The difference between these functions is that `EEPROM.write(address, value);` writes only 1 byte at a time (at the specified address), and `EEPROM.put(address, struct/union)` writes the entire data packet that is passed to the function.
+
+#### Writing
+
+Similar functions for reading from the memory are also available.
+```c
+&get( int idx, T &t )
+
+uint8_t read( int idx )
+```
+___
+<br>
+### A Small Example
+
+Let's store a number at byte-location '0' and then retrieve it simply using *write* and *read*.<br>
+If uploaded, every reset of the ATmega must result in an increment in the brightness of the LED connected on pin 11.
+
+```c
+#include <EEPROM.h>
+
+int i = 1;
+
+void setup()
+{
+  //check whether data is already present
+  if(EEPROM.read(0))
+  {
+    //store the value in a variable
+    i = EEPROM.read(0);
+    Serial.print("Reading Value...");
+    Serial.println(i);
+
+    //increment by one
+    i += 1;
+
+    //store the changed value
+    //next read should give incremented value
+    EEPROM.write(0,i);
+  }
+  else
+  {
+    //write something if no value is present
+    EEPROM.write(0,i);
+    Serial.print("Writing Value...");
+    Serial.println(i);
+  }
+}
+
+void loop(){}
+```
+<br>
+There is no need of necessarily restricting the re-writes, because even with 50 re-writes a day, it will take 5.4 years to make one byte-location useless.<br>
+And it was just one address we were writing to. There are 1023 more!
+
+Custom structures can be effortlessly dealt with using the *get* and *put* functions:
+
+```c
+typedef struct Data
+{
+  uint8_t var1;
+  uint16_t var2;
+  float var3;
+}data;
+
+void setup()
+{
+
+  //check whether data is already present
+  if(EEPROM.read(0))
+  {
+    //store the value in a variable
+    EEPROM.get(0, data);
+
+    //change values
+    data.var1 += 1;
+    data.var2 += 1;
+    data.var3 += 1;
+
+    //store the changed value
+    //next read should give changed values
+    EEPROM.put(address, data);
+  }
+  else
+  {
+    //initialise structure
+    data.var1 = 141;
+    data.var2 = 1414;
+    data.var3 = 1.414;
+  }
+}
+
+void loop(){}
+```
+
+___
+<br>
+<br>
+## The Custom Header File
+
+The calibration values I had received were:<br>
+<div>
+  $$k = 0.9843357$$$$E_{OS} = 2$$
+</div>
+
+Let's store these values.
+```c
+#include <EEPROM.h>
+
+float k = 0.9843357;
+uint8_t errOS= 2;
+
+void setup()
+{
+  //float takes 4 bytes and the uint8_t takes 1 byte
+  EEPROM.write(1020, k);
+  EEPROM.write(1019, errOS);
+
+  //writing these values at the end gives
+  //freedom to use the 0 locations in case
+  //one forgets about the stored data.
+}
+```
+<br>
+The following is the header file for using the temperature sensor. I named it "**tempSensor.h**" and saved it in the libraries folder.
+```c
+#include <avr/io.h>
+#include <EEPROM.h>
+
+uint8_t k = 1.0615, errOS = 0;
+
+errOS = EEPROM.read(1019);
+k = EEPROM.read(1020);
+
+float readTemp()
+{
+  ADMUX = _BV(REFS1) | _BV(REFS0);
+  ADMUX |= _BV(MUX3);
+  delay(5);
+  ADCSRA |= _BV(ADSC);
+  while (bit_is_set(ADCSRA,ADSC));
+
+  uint8_t low  = ADCL;  
+  uint8_t high = ADCH;
+  int reading = ((high << 8) | low);
+  float result = (((reading) - 314 - errOS)/k + 25);
+
+  return result;
+}
+```
+
+And it's done!<br>
+To get a reading, simply include the header file and call **readTemp()**.
+
+### Sample Code
+
+```c
+#include <tempSensor.h>
+
+void setup()
+{
+  DDRB = _BV(5);
+}
+
+void loop()
+{
+  // light up an LED whenever temperature
+  // is more than 30 degrees Celcius
+  if(readTemp() > 30)
+    PORTB |= 0b0010000;
+  else
+    PORTB |= 0b0000000;
+
+  delay(1000);
+}
+```
+
+___
+<br>
+<br>
+*Isn't it fun to **make** and do simple stuff that adds to your comfort zone?<br>I feel that the biggest characteristic of being a maker is that every thing one learns is always under constant scrutiny to be pulled into a relevant opportunity. Maybe this is why <a title="Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, and David Mellis">the guys</a> who invented Arduino were able to make it what it is today. Arduino easily touches a lot of comfort zones, and its open-source community has grown wildly in the last few years.<br>*

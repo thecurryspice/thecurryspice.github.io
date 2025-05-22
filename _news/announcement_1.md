@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-01-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I join [MMNE Lab](https://www.mmne.in/) at BITS Pilani advised by [Dr. Sanket Goel](https://www.bits-pilani.ac.in/hyderabad/sanket-goel/).
