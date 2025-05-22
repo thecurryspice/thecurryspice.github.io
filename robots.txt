@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thecurryspice.github.io/folio/sitemap.xml
+Sitemap: https://thecurryspice.github.io/sitemap.xml

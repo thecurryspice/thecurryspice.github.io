@@ -7,56 +7,56 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/folio/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/folio/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "Publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "A few of my repositories worth looking at",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/folio/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Please view the Publications page for my academic contributions.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-tutorials",
           title: "tutorials",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/folio/tutorials/";
+            window.location.href = "/tutorials/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/folio/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/folio/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "post-2025-already-is-it",
         
@@ -66,7 +66,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2025/2025-already/";
+            window.location.href = "/blog/2025/2025-already/";
           
         },
       },{id: "post-restarting-in-2024",
@@ -77,7 +77,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2024/micron-imagination-hiaccel/";
+            window.location.href = "/blog/2024/micron-imagination-hiaccel/";
           
         },
       },{id: "post-on-finding-your-zima-blue",
@@ -88,7 +88,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2021/on-finding-your-zima-blue/";
+            window.location.href = "/blog/2021/on-finding-your-zima-blue/";
           
         },
       },{id: "post-on-potential-and-capacity",
@@ -99,7 +99,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2021/on-potential-and-capacity/";
+            window.location.href = "/blog/2021/on-potential-and-capacity/";
           
         },
       },{id: "post-for-the-earth-that-is-dying",
@@ -110,7 +110,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2020/for-the-earth-that-is-dying/";
+            window.location.href = "/blog/2020/for-the-earth-that-is-dying/";
           
         },
       },{id: "post-why-are-cyborgs-feasible",
@@ -121,7 +121,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2020/cyborgs/";
+            window.location.href = "/blog/2020/cyborgs/";
           
         },
       },{id: "post-yin-and-yang",
@@ -132,7 +132,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2020/yin-and-yang/";
+            window.location.href = "/blog/2020/yin-and-yang/";
           
         },
       },{id: "post-an-epiphany-on-anger",
@@ -143,7 +143,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2019/anger/";
+            window.location.href = "/blog/2019/anger/";
           
         },
       },{id: "post-tea-and-compliments",
@@ -154,7 +154,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2019/tea-and-compliments/";
+            window.location.href = "/blog/2019/tea-and-compliments/";
           
         },
       },{id: "post-why-good-people-are-good",
@@ -165,7 +165,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/why-good-people-are-good/";
+            window.location.href = "/blog/2018/why-good-people-are-good/";
           
         },
       },{id: "post-for-the-love-of-sleep",
@@ -176,7 +176,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/i-love-to-sleep/";
+            window.location.href = "/blog/2018/i-love-to-sleep/";
           
         },
       },{id: "post-serene-mornings",
@@ -187,7 +187,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/serene-mornings/";
+            window.location.href = "/blog/2018/serene-mornings/";
           
         },
       },{id: "post-industry-exposure",
@@ -198,7 +198,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/industry-exposure/";
+            window.location.href = "/blog/2018/industry-exposure/";
           
         },
       },{id: "post-on-death-and-dark-humour",
@@ -209,7 +209,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/on-death-and-dark-humour/";
+            window.location.href = "/blog/2018/on-death-and-dark-humour/";
           
         },
       },{id: "post-defining-metrics-for-love",
@@ -220,7 +220,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2018/on-love/";
+            window.location.href = "/blog/2018/on-love/";
           
         },
       },{id: "post-bouquets-in-porcelain",
@@ -231,7 +231,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2017/bouquets-in-porcelain/";
+            window.location.href = "/blog/2017/bouquets-in-porcelain/";
           
         },
       },{id: "post-humanitism",
@@ -242,7 +242,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2017/humanitism/";
+            window.location.href = "/blog/2017/humanitism/";
           
         },
       },{id: "post-experiences-with-jekyll",
@@ -253,44 +253,44 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/folio/blog/2017/experiences-with-jekyll/";
+            window.location.href = "/blog/2017/experiences-with-jekyll/";
           
         },
       },{id: "books-man-39-s-search-for-meaning",
           title: 'Man&amp;#39;s Search For Meaning',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/mans_search_for_meaning/";
+              window.location.href = "/books/mans_search_for_meaning/";
             },},{id: "books-mastery",
           title: 'Mastery',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/mastery/";
+              window.location.href = "/books/mastery/";
             },},{id: "books-on-computing-the-fourth-great-scientific-domain",
           title: 'On Computing - The Fourth Great Scientific Domain',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/on_computing/";
+              window.location.href = "/books/on_computing/";
             },},{id: "books-the-undiscovered-self-the-dilemma-of-the-individual-in-modern-society",
           title: 'The Undiscovered Self - The Dilemma of the Individual in Modern Society',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/the_undiscovered_self/";
+              window.location.href = "/books/the_undiscovered_self/";
             },},{id: "books-several-short-sentences-about-writing",
           title: 'Several Short Sentences About Writing',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/several_short_sentences_about_writing/";
+              window.location.href = "/books/several_short_sentences_about_writing/";
             },},{id: "books-notes-from-underground",
           title: 'Notes From Underground',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/notes_from_underground/";
+              window.location.href = "/books/notes_from_underground/";
             },},{id: "books-a-brief-history-of-intelligence",
           title: 'A Brief History of Intelligence',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/folio/books/a_brief_history_of_intelligence/";
+              window.location.href = "/books/a_brief_history_of_intelligence/";
             },},{id: "news-i-join-mmne-lab-at-bits-pilani-advised-by-dr-sanket-goel",
           title: 'I join MMNE Lab at BITS Pilani advised by Dr. Sanket Goel.',
           description: "",
@@ -307,7 +307,7 @@ ninja.data = [{
           title: 'I tape out the first chip of my career',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/folio/news/announcement_5/";
+              window.location.href = "/news/announcement_5/";
             },},{id: "news-excited-to-join-imagination-technologies-for-development-of-automotive-cpus",
           title: 'Excited to join Imagination Technologies for development of automotive CPUs!',
           description: "",
@@ -318,52 +318,52 @@ ninja.data = [{
           title: 'ATmega328 Register Reference',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-06-23-atmega328-register-reference/";
+              window.location.href = "/tutorials/2017-06-23-atmega328-register-reference/";
             },},{id: "tutorials-about-the-series",
           title: 'About The Series',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-06-25-exploiting-an-arduino/";
+              window.location.href = "/tutorials/2017-06-25-exploiting-an-arduino/";
             },},{id: "tutorials-advanced-i-o",
           title: 'Advanced I/O',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-06-30-advanced-io/";
+              window.location.href = "/tutorials/2017-06-30-advanced-io/";
             },},{id: "tutorials-timers-basic-concepts",
           title: 'Timers - Basic Concepts',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-07-10-timers-basic-concepts/";
+              window.location.href = "/tutorials/2017-07-10-timers-basic-concepts/";
             },},{id: "tutorials-timers-gory-details",
           title: 'Timers - Gory Details',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-07-15-timers-gory-details/";
+              window.location.href = "/tutorials/2017-07-15-timers-gory-details/";
             },},{id: "tutorials-hidden-temperature-sensor",
           title: 'Hidden Temperature Sensor',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-07-22-temperature-sensor/";
+              window.location.href = "/tutorials/2017-07-22-temperature-sensor/";
             },},{id: "tutorials-eeprom",
           title: 'EEPROM',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-08-05-eeprom/";
+              window.location.href = "/tutorials/2017-08-05-eeprom/";
             },},{id: "tutorials-faster-adc",
           title: 'Faster ADC',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2017-10-01-faster-adc/";
+              window.location.href = "/tutorials/2017-10-01-faster-adc/";
             },},{id: "tutorials-faster-pwm",
           title: 'Faster PWM',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2018-02-05-faster-pwm/";
+              window.location.href = "/tutorials/2018-02-05-faster-pwm/";
             },},{id: "tutorials-debugging-hardware-spi-on-atmega2560",
           title: 'Debugging Hardware SPI on ATMega2560',
           description: "",
           section: "Tutorials",handler: () => {
-              window.location.href = "/folio/tutorials/2019-11-07-hardware-spi/";
+              window.location.href = "/tutorials/2019-11-07-hardware-spi/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -390,7 +390,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/folio/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
