@@ -45,12 +45,11 @@ status: Finished # Abandoned Queued Interested Reading Finished
 ## Self-Knowledge
 
 * History will undoubtedly pass over those who feel it is their vocation to resist this inevitable development, however desirable and psychologically necessary it may be to cling to what is essential and good in our own tradition.
-
 * A human relationship is not based on differentiation and perfection, for these only emphasize the differences or call forth the exact opposite; it is based, rather, on imperfection, on what is weak, helpless and in need of support - the very ground and motive for dependence.
 
 ## The Meaning of Self-Knowledge
 
-Happiness and contentment, equability of mind and meaningfulness of life - these can be experienced only by the individual and not by a State, which, on the one hand, is nothing but a convention agreed to by independent individuals and, on the other, continually theatens to paralyse and suppress the individual.
+* Happiness and contentment, equability of mind and meaningfulness of life - these can be experienced only by the individual and not by a State, which, on the one hand, is nothing but a convention agreed to by independent individuals and, on the other, continually theatens to paralyse and suppress the individual.
 
 
 ## The Problem of Types in Dream Interpretation
@@ -60,13 +59,10 @@ Happiness and contentment, equability of mind and meaningfulness of life - these
 ## The Archetype in Dream Symbolism
 
 * The archetype is an inherited tendency of the human mind to form representation of mythological motifs - representations that vary a great deal without losing their basic pattern.
-
 * But while personal complexes never produce more than a personal bias, archetypes create myths, religions, and philosophical ideas that influence and set their stamp on whole nations and epochs.
 
 ## Healing the Split
 
 * Since we measure a child's psychic life by the paucity and simplicity of its conscious contents, we do not appreciate the far-reaching complexitites of the infantile mind that stem from its original identity with the prehistoric psyche. That "original mind" is just as much present and still functioning in the child as the evolutionary stages are in the embryo.
-
 * The symbol-producing function of our dreams is an attempt to bring our original mind back to consciousness, where it has never been before, and where it has never undergone critical self-reflection.
-
 * As any change must begin somewhere, it is the single individual who will undergo it and carry it through. The change must begin with one individual; it might be any one of us. Nobody can addord to look around and wait for somebody else to do what he is loath to do himself.

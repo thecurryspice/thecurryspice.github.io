@@ -21,7 +21,7 @@ status: Finished # Abandoned Queued Interested Reading Finished
 
 ---
 
-* Fiction and nonfiction resemble each other far more closely than they do any actual event. THeir techniques are essentially the same, apart from sheer invention.
+* Fiction and nonfiction resemble each other far more closely than they do any actual event. Their techniques are essentially the same, apart from sheer invention.
 * You were being taught to manage the evidence gathered from other authorities instead of cultivating your own - to simulate logic but not to write so clearly that what you were saying seemed self-evident.
 * Noticing is about letting yourself out into the world, rather than siphoning the world into you.
 * Flow is something the reader experiences, not the writer.

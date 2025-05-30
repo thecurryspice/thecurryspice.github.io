@@ -12,7 +12,7 @@ released: 2023
 stars: 5
 started: 2024-12-15
 finished: 
-date: 2025-12-15
+date: 2024-12-15
 # goodreads_review: 6318556633
 status: Reading # Abandoned Queued Interested Reading Finished
 ---
