@@ -281,16 +281,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/several_short_sentences_about_writing/";
-            },},{id: "books-notes-from-underground",
-          title: 'Notes From Underground',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/notes_from_underground/";
             },},{id: "books-a-brief-history-of-intelligence",
           title: 'A Brief History of Intelligence',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a_brief_history_of_intelligence/";
+            },},{id: "books-notes-from-underground",
+          title: 'Notes From Underground',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/notes_from_underground/";
             },},{id: "news-i-join-mmne-lab-at-bits-pilani-advised-by-dr-sanket-goel",
           title: 'I join MMNE Lab at BITS Pilani advised by Dr. Sanket Goel.',
           description: "",
