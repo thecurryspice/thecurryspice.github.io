@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Namaste!<br>
+Namaste! Fellow traveller on this blue orb.<br>
 I currently work as a research assistant at [HiAccel lab](https://www.sfu.ca/~zhenman/group), while enrolled as a MASc student studying [Computer Engineering at Simon Fraser University (SFU)](https://www.sfu.ca/engineering/research/computer-engineering.html) and advised by [Dr. Zhenman Fang](https://www.sfu.ca/~zhenman/index.html).
 
 My current research interests include characterization of __accelerator-rich architectures__ and __systems for ML__. Most of my work tightly involves relevant EDA. I think that closing the gap between software-programmers and hardware-designers is as tremendously significant as challenging.<br>
@@ -42,8 +42,8 @@ Before I dived into computer architecture, I tinkered with electronics and used 
 I received my B.E. in Electronics Engineering in 2020 from [BITS Pilani, Hyderabad Campus](http://www.bits-pilani.ac.in/hyderabad/).
 *Lite*.
 
-In my natural habitat, I can be observed staring either into some screen, or into some cookware.<br>
-It's possible I'm currenty sipping Chai <sub>(slurp)</sub>
+In my natural habitat, I can be observed staring either into some screen or into some cookware.<br>
+It's possible I'm currenty sipping some variant of tea. <sub>(slurp)</sub>
 
 <!-- <sub>*I am not a web-developer. This blog is a jenga-tower built by my incoherent understanding of <a href="https://jekyllrb.com">Jekyll</a>. It is possible that some links/pages of this site are broken.*</sub> -->
 
