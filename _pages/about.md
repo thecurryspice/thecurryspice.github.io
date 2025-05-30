@@ -43,7 +43,7 @@ I received my B.E. in Electronics Engineering in 2020 from [BITS Pilani, Hyderab
 *Lite*.
 
 In my natural habitat, I can be observed staring either into some screen or into some cookware.<br>
-It's possible I'm currenty sipping some variant of tea. <sub>(slurp)</sub>
+It's possible I'm currenty sipping some variant of tea <sub>(slurp)</sub>
 
 <!-- <sub>*I am not a web-developer. This blog is a jenga-tower built by my incoherent understanding of <a href="https://jekyllrb.com">Jekyll</a>. It is possible that some links/pages of this site are broken.*</sub> -->
 
