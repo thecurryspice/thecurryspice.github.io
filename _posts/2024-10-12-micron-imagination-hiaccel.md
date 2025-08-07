@@ -55,13 +55,13 @@ Linting and CDC is mostly what was on my plate initially, and I was offered to w
 
 I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the beach. Vancouver offers both!
 
-![Somewhere around Iona Terminus](/assets/blog/2024-10-12/IonaTerminus.jpg)
+![Somewhere around Iona Terminus](assets/img/posts/blog/2024-10-12/IonaTerminus.jpg)
 <sub>*^somewhere around Iona Terminus*</sub>
 
-![Somewhere around White Rock](/assets/blog/2024-10-12/WhiteRock.jpg)
+![Somewhere around White Rock](assets/img/posts/blog/2024-10-12/WhiteRock.jpg)
 <sub>*^somewhere around White Rock*</sub>
 
-![Somewhere around Stanley Park](/assets/blog/2024-10-12/StanleyPark.jpg)
+![Somewhere around Stanley Park](assets/img/posts/blog/2024-10-12/StanleyPark.jpg)
 <sub>*^somewhere around Stanley Park*</sub>
 
 ---
@@ -72,10 +72,10 @@ I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the 
 
 It is very important to choose where to stay while studying, and I feel lucky to have found accommodation at SFU's on-campus housing. It makes a huge difference. Here are a couple of photos from SFU campus. Both are HDR shots from a Samsung phone. No post edits. Someone professional might capture much better photos.
 
-![SFUcampusFall](/assets/blog/2024-10-12/campusFall.jpg)
+![SFUcampusFall](assets/img/posts/blog//2024-10-12/campusFall.jpg)
 <sub>*Sharad. Autumn. Here, it's called Fall because well ... leaves ... fall down. Captured late-October.*</sub>
 
-![SFUcampusMountain](/assets/blog/2024-10-12/campusMountain.jpg)
+![SFUcampusMountain](assets/img/posts/blog/2024-10-12/campusMountain.jpg)
 <sub>*It's better to cry amidst these mountains than on a busy street. Yes, this view is from campus. Captured mid-March.*</sub>
 
 The occasional deer and bear sightings are a bonus. The air is cleaning out my lungs as quickly as the expenses are clearing out my wallet. It is fun to return to student life. But let me not romanticise it for you. In another universe, I probably wouldn't have liked this change in lifestyle. This type of a lifestyle change is quite subjective and is only for the brave at heart.<br>
