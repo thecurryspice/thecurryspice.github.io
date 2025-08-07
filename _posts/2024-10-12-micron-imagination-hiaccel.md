@@ -57,10 +57,19 @@ I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the 
 
 
 {% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/IonaTerminus.jpg" title="Somewhere around Iona Terminus" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Somewhere around Iona Terminus
+</div>
 
 {% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/WhiteRock.jpg" title="Somewhere around White Rock" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Somewhere around White Rock
+</div>
 
 {% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/StanleyPark.jpg" title="Somewhere around Stanley Park" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Somewhere around Stanley Park
+</div>
 
 ---
 <br>
@@ -70,11 +79,15 @@ I moved to Vancouver in Fall 2023. Some folks like the mountains. Some like the 
 
 It is very important to choose where to stay while studying, and I feel lucky to have found accommodation at SFU's on-campus housing. It makes a huge difference. Here are a couple of photos from SFU campus. Both are HDR shots from a Samsung phone. No post edits. Someone professional might capture much better photos.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/campusFall.jpg" title="Sharad. Autumn. Here, it's called Fall because well ... leaves ... fall down. Captured late-October." class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/campusFall.jpg" title="campusFall" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Sharad. Autumn. Here, it's called Fall because well ... leaves ... fall down. Captured late-October.
+</div>
 
-{% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/campusFall.jpg" title="It's better to cry amidst these mountains than on a busy street. Yes, this view is from campus. Captured mid-March." class="img-fluid rounded z-depth-1" %}
-
-<sub>**</sub>
+{% include figure.liquid loading="eager" path="assets/img/posts/blog/2024-10-12/campusMountain.jpg" title="campusMountain" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Always better to cry amidst mountains than on a busy street. Yes, this view is from campus. Captured mid-March.
+</div>
 
 The occasional deer and bear sightings are a bonus. The air is cleaning out my lungs as quickly as the expenses are clearing out my wallet. It is fun to return to student life. But let me not romanticise it for you. In another universe, I probably wouldn't have liked this change in lifestyle. This type of a lifestyle change is quite subjective and is only for the brave at heart.<br>
 I am able to survive the delusion that I am ᕕ(⌐■_■)ᕗ ♪♬
@@ -99,5 +112,5 @@ I shall scream into this void here, laying down human thoughts for some web-scra
 I often wonder where I will fit better - academia or corporate.<br>
 I don't know, honestly. All I know is that I am trying to find the right place, and just hang around.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/unsorted/calvinhobbesrightplacetime.png" title="" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/posts/unsorted/calvinhobbesrightplacetime.png" title="CHRightPlaceTime" class="img-fluid rounded z-depth-1" %}
 
