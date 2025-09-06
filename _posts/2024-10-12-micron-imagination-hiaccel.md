@@ -112,5 +112,5 @@ I shall scream into this void here, laying down human thoughts for some web-scra
 I often wonder where I will fit better - academia or corporate.<br>
 I don't know, honestly. All I know is that I am trying to find the right place, and just hang around.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/unsorted/calvinhobbesrightplacetime.png" title="CHRightPlaceTime" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/posts/blog/unsorted/calvinhobbesrightplacetime.png" title="CHRightPlaceTime" class="img-fluid rounded z-depth-1" %}
 
